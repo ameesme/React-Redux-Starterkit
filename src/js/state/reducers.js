@@ -1,2 +1,2 @@
-// export { ReducerClass as StateItRepresents } from './directory/file';
-
+// Example:
+// export { userRedcer as loggedInUser } from './reducers/user';
