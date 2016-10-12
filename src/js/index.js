@@ -13,6 +13,8 @@ ReactDOM.render((
   <Provider store={store}>
     <Router history={history}>
       <Route path="/" component={App} name="App">
+      </Route>
+      <Route path="/hello" component={App} name="App">
         <IndexRoute component={HelloWorld} />
       </Route>
     </Router>

@@ -10,6 +10,7 @@ export default class App extends Component {
     return (
       <div id="application">
         <div className="main grid">
+          App
           <div className="content column soft--large">
             {children}
           </div>
