@@ -8,12 +8,10 @@ export default class App extends Component {
   render() {
     const { children } = this.props;
     return (
-      <div id="application">
-        <div className="main grid">
-          App
-          <div className="content column soft--large">
-            {children}
-          </div>
+      <div className="main grid">
+        App
+        <div className="content column soft--large">
+          {children}
         </div>
       </div>
     );
