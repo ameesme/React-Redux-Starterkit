@@ -4,7 +4,7 @@ import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 import { Provider } from 'react-redux';
 import { syncHistoryWithStore } from 'react-router-redux';
 import { App } from 'components/app';
-import { HelloWorld } from 'components/hello-world
+import { HelloWorld } from 'components/hello-world';
 import store from 'state/store';
 
 const history = syncHistoryWithStore(hashHistory, store);
@@ -18,4 +18,3 @@ ReactDOM.render((
     </Router>
   </Provider>
 ), document.getElementById('container'));
-
