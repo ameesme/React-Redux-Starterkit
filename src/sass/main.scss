@@ -1,0 +1,8 @@
+// @import "components/app; --> refers to file: ./components/_app.scss (note the underscore for a partial SASS file)
+
+// @import "variables/app";
+
+@import "base/base";
+@import "base/typography";
+
+

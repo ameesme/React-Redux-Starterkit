@@ -1,0 +1,4 @@
+{
+  "plugins": ["transform-class-properties", "transform-react-display-name", "extensible-destructuring"],
+  "presets": ["es2015", "react", "stage-0"]
+}

@@ -1,0 +1,12 @@
+.idea/
+.sass-cache/
+*.css.map
+*.iml
+build/
+coverage/
+dist/
+node_modules/
+npm-debug.log
+.DS_Store
+.nyc_output
+

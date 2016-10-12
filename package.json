@@ -1,0 +1,78 @@
+{
+  "name": "react-boilerplate",
+  "description": "Boilerplate for react/redux projects",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.production.js",
+    "build:acceptance": "webpack --config webpack.config.acceptance.js",
+    "build:dev": "webpack --config webpack.config.development.js",
+    "prebuild": "npm run test",
+    "start": "webpack-dev-server --config webpack.config.development.js --host 0.0.0.0 --port 8080 --hot --inline --progress --content-base src/html",
+    "test": "npm run test:lint && npm run test:coverage",
+    "test:coverage": "nyc --all --require ./setup-tests.js npm run test:unit && nyc report --reporter=cobertura",
+    "test:lint": "eslint './src/**/*.js' &&  sass-lint -c ./.scss-lint.yml -v -q",
+    "test:unit": "tape --require ./setup-tests.js src/**/*.spec.js | tap-spec"
+  },
+  "bugs": {
+    "url": "https://github.com/freekwiekmeijer/react-boilerplate/issues"
+  },
+  "devDependencies": {
+    "react-redux": "4.4.5",
+    "react-router": "2.8.1",
+    "react-router-redux": "4.0.6",
+    "redux": "3.6.0",
+    "redux-form": "6.1.0",
+    "redux-promise-middleware": "4.1.0",
+    "redux-thunk": "2.1.0",
+    "revalidate": "0.4.1",
+    "babel-eslint": "6.1.2",
+    "babel-loader": "6.2.4",
+    "babel-plugin-extensible-destructuring": "4.0.1",
+    "babel-plugin-transform-class-properties": "6.10.2",
+    "babel-plugin-transform-react-display-name": "6.8.0",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-react": "6.11.1",
+    "babel-preset-stage-0": "6.5.0",
+    "babel-register": "6.9.0",
+    "classnames": "2.2.5",
+    "copy-webpack-plugin": "3.0.1",
+    "enzyme": "2.4.1",
+    "eslint": "2.9.0",
+    "eslint-config-airbnb": "9.0.1",
+    "eslint-loader": "1.4.1",
+    "eslint-plugin-import": "1.11.0",
+    "eslint-plugin-jsx-a11y": "1.2.0",
+    "eslint-plugin-react": "5.2.2",
+    "eslint-import-resolver-webpack": "0.3.0",
+    "extract-text-webpack-plugin": "1.0.1",
+    "node-sass": "3.8.0",
+    "node-sass-module-importer": "0.1.0",
+    "nyc": "7.0.0",
+    "raw-loader": "0.5.1",
+    "react": "15.3.2",
+    "react-addons-test-utils": "15.3.2",
+    "react-dom": "15.3.2",
+    "sass-lint": "1.8.2",
+    "sass-loader": "4.0.0",
+    "sinon": "1.17.4",
+    "tap-spec": "4.1.1",
+    "tape": "4.6.0",
+    "webpack": "1.13.2",
+    "webpack-dev-server": "1.16.2"
+  },
+  "homepage": "https://github.com/freekwiekmeijer/react-boilerplate/",
+  "license": "MIT",
+  "nyc": {
+    "include": [
+      "src/**/*.js"
+    ],
+    "exclude": [
+      "src/**/*.spec.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freekwiekmeijer/react-boilerplate.git"
+  }
+}
