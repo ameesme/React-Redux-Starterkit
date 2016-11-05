@@ -2,16 +2,19 @@
 
 ## Inside the box
 
-| Category     | Name                  |
-|--------------|-----------------------|
-| Language     | JavaScript (ES6, JSX) |
-| Libraries    | - React               |
-|              | - Redux               |
-| Code Quality | - Eslint              |
-|              | - Airbnb Styleguide   |
-| Testing      | - AVA                 |
-|              | - Enzyme              |
-| Packaging    | - Webpack             |
+| Category        | Name                  |
+|-----------------|-----------------------|
+| Language        | JavaScript (ES6, JSX) |
+| Transpiler      | [Babel](https://babeljs.io)|
+| Libraries       | - [React](https://facebook.github.io/react/)|
+|                 | - [Redux](https://github.com/reactjs/redux)|
+| Code Quality    | - [Eslint](http://eslint.org)|
+|                 | - [Airbnb Styleguide](https://github.com/airbnb/javascript)|
+| Testing         | - [AVA](https://github.com/avajs/ava)|
+|                 | - [Enzyme](https://github.com/airbnb/enzyme)|
+| Building        | [Webpack](https://webpack.github.io)|
+| Package manager | [Yarn](https://yarnpkg.com)|
+| Changelog       | [KeepAChangelog](http://keepachangelog.com/en/0.3.0/)|
 
 ## How to use
 
