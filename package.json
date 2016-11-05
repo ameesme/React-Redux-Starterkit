@@ -12,7 +12,7 @@
     "test": "npm run test:lint && npm run test:coverage",
     "test:coverage": "nyc --all --require ./setup-tests.js npm run test:unit && nyc report --reporter=cobertura",
     "test:lint": "eslint './src/**/*.js' &&  sass-lint -c ./.scss-lint.yml -v -q",
-    "test:unit": "tape --require ./setup-tests.js src/**/*.spec.js | tap-spec"
+    "test:unit": "ava --require ./setup-tests.js src/**/*.spec.js"
   },
   "bugs": {
     "url": "https://github.com/freekwiekmeijer/react-boilerplate/issues"
@@ -71,6 +71,10 @@
     "exclude": [
       "src/**/*.spec.js"
     ]
+  },
+  "ava": {
+    "require": "babel-register",
+    "babel": "inherit"
   },
   "repository": {
     "type": "git",
