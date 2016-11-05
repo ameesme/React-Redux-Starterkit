@@ -1,7 +1,6 @@
-# React / redux boilerplate project
+# React / Redux Starterkit
 
-## Tech Stack
-
+## Stack
 * Language: Javascript ES6 + JSX
 * View: React.js
 * Application state management: Redux, react-redux
