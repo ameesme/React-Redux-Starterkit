@@ -5,33 +5,33 @@
 * Language: Javascript ES6 + JSX
 * View: React.js
 * Application state management: Redux, react-redux
-* Code check: eslint
-* Unit test: enzyme, tape
-* Packaging: webpack
+* Code quality: eslint
+* Unit testing: enzyme, ava
+* Bundler: webpack
 
 ## Build
 
 ```
-$ npm run build
+$ yarn run build
 ```
 
 ## Code check & unit test
 
 ```
-$ npm t
+$ yarn test
 ```
 
 
 ## Install
 
 ```
-$ npm install
+$ yarn
 ```
 
 ## Run
 
 ```
-$ npm start
+$ yarn start
 ```
 Open browser on http://localhost:8080/
 
