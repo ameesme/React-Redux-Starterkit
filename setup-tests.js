@@ -5,16 +5,12 @@
  * already does this for you.
  *
  * See https://github.com/airbnb/enzyme/blob/master/docs/guides/jsdom.md for more details on
- * why this is needed
- *
- * This file also sets up babel so all of the app's code, the baas-styleguide's code
- * and the shared styleguide's code gets compiled correctly.
- *
+ * why this is needed.
  */
 
 require('babel-register')({
   ignore: false,
-  only: /(src|node_modules\/styleguide|node_modules\/styleguide-baas)/,
+  only: 'src',
   sourceMaps: 'inline'
 });
 
