@@ -1,5 +1,7 @@
-# React / Redux Starterkit
+# 🔆 React / Redux Starterkit
+![](http://forthebadge.com/images/badges/built-with-love.svg)
 
+A React / Redux Starterkit with unit-testing, linting and building to get you up to speed fast. Also includes things like a changelog, styleguide and a Yarn-setup.
 ## Inside the box
 
 | Category        | Name                  |
