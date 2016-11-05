@@ -1,36 +1,43 @@
 # React / Redux Starterkit
 
-## Stack
-* Language: Javascript ES6 + JSX
-* View: React.js
-* Application state management: Redux, react-redux
-* Code quality: eslint
-* Unit testing: enzyme, ava
-* Bundler: webpack
+## Inside the box
 
-## Build
+| Category     | Name                  |
+|--------------|-----------------------|
+| Language     | JavaScript (ES6, JSX) |
+| Libraries    | - React               |
+|              | - Redux               |
+| Code Quality | - Eslint              |
+|              | - Airbnb Styleguide   |
+| Testing      | - AVA                 |
+|              | - Enzyme              |
+| Packaging    | - Webpack             |
 
-```
-$ yarn run build
-```
+## How to use
 
-## Code check & unit test
-
-```
-$ yarn test
-```
-
-
-## Install
+### Install
 
 ```
 $ yarn
 ```
 
-## Run
+### Run
 
 ```
 $ yarn start
 ```
-Open browser on http://localhost:8080/
+
+Open browser on [localhost:8080/](http://localhost:8080/)
+
+### Code linting and unit testing
+
+```
+$ yarn test
+```
+
+### Build
+
+```
+$ yarn run build
+```
 
