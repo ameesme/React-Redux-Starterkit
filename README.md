@@ -2,6 +2,9 @@
 ![](http://forthebadge.com/images/badges/built-with-love.svg)
 
 A React / Redux Starterkit with unit-testing, linting and building to get you up to speed fast. Also includes things like a changelog, styleguide and a Yarn-setup.
+
+This kit is the result of the hard work of many developers at @GreenhouseGroupBV, my former employer.
+
 ## Inside the box
 
 | Category        | Name                  |
